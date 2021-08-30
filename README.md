@@ -1,7 +1,7 @@
-#Europe
+EUROPE
 
-Europe is the exact same app as countries-of-europe
+Europe is the exact same app as 'countries-of-europe', which is written in vanilla js.
 
-only converted to react.js
+This version is converted to React.js
 
 
