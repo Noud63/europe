@@ -3,8 +3,8 @@ import Wrapper from './components/Wrapper'
 
 function App() {
   return (
-    <Wrapper />
-   );
+    <Wrapper basename="/eredivisie" />
+  );
 }
 
 export default App;
