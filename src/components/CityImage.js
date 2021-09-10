@@ -12,11 +12,13 @@ const CityImage = ({ index, count, increment, decrement }) => {
         setShow(!show)
     }
 
+    console.log(countries)
+
     return (
         <>
             <div className={styles.box}>
                 <div className={styles.imagebox}>
-                    <div className={styles.bgImg}><img src={`images/${images[index]}`} alt="" className={styles.bgImage} /></div>
+                    <div className={styles.bgImg}><img src={process.env.PUBLIC_URL + `/images/${images[index]}`} alt="" className={styles.bgImage} /></div>
                 </div>
             </div>
 
@@ -29,9 +31,9 @@ const CityImage = ({ index, count, increment, decrement }) => {
                     <div>Language: {countries[index].language}</div>
                     <div>Currency: {countries[index].currency}</div>
                 </div>
-                <div className={styles.map} onClick={showMap}><img src={`${countries[index].image}`} alt="" />
+                <div className={styles.map} onClick={showMap}><img src={process.env.PUBLIC_URL + `${countries[index].image}`} alt="" />
                     <div className={styles.mapOverlay} style={show ? { display: 'flex' } : { display: 'none' }}>
-                        <img src={`${countries[index].imagebig}`} alt="" className={styles.popup} />
+                        <img src={process.env.PUBLIC_URL + `${countries[index].imagebig}`} alt="" className={styles.popup} />
                     </div>
                 </div>
             </div>

@@ -132,6 +132,44 @@ body {
     }
 }
 
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     width: var(--width);
+     border: 1px solid  rgb(116, 143, 168);
+}
+
+.search > input {
+    width: 80%;
+    height: 30px;
+    border-style: none;
+    outline: none;
+    background-color: black;
+    color: rgb(116, 143, 168);
+    padding-left: 10px;
+}
+
+input::placeholder {
+    color: rgb(64, 93, 121);
+}
+
+.searchBtn {
+    width: 17%;
+    height: 33px;
+    border-style: none;
+    outline: none;
+    background-color: rgb(116, 143, 168);
+    color: black;
+    font-size: 1rem;
+}
+
+@media only screen and (max-width: 600px){
+    .searchBtn {
+        font-size: .8rem;
+    }
+}
+
 .countries {
     padding-top: 30px;
     padding-bottom: 30px;

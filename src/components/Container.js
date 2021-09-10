@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './Header';
+import SearchCountry from './SearchCountry';
 import CityImage from './CityImage';
 import Weather from './Weather';
 import CountryNameFlag from './CountryNameFlag'
@@ -33,6 +34,7 @@ const Container = () => {
         <>
             <div className={styles.container}>
                 <Header />
+                <SearchCountry count={count} index={index} />
                 <CountryNameFlag count={count} index={index} />
                 <CityImage count={count} index={index} increment={increment} decrement={decrement} />
                 <Weather index={index} />
