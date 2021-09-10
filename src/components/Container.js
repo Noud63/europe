@@ -38,7 +38,6 @@ const Container = () => {
     }
 
     function findCountry(land) {
-        console.log(land)
         for (let i = 0; i < country.length; i++) {
             if (country[i].toLowerCase() === land) {
                 setIndex(i)
