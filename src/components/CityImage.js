@@ -12,8 +12,6 @@ const CityImage = ({ index, count, increment, decrement }) => {
         setShow(!show)
     }
 
-    console.log(countries)
-
     return (
         <>
             <div className={styles.box}>
