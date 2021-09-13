@@ -10,7 +10,8 @@ const SearchCountry = ({ input, setInput, handleClick }) => {
             <button className={styles.searchBtn} onClick={handleClick}>search</button>
         </div>
         
-        <div className={styles.allCountriesBtn}>- Germany - The Netherlands - Spain - Italy - Norway - Moldavia - Georgia - Ireland - Poland - Iceland - France - Austria - Czech Republic - Belgium - United Kingdom - Swizerland - Finland - Luxembourg - Andorra - Romania -</div>
+            <div className={styles.allCountriesBtn}>The Netherlands - Germany - Spain - Italy - Norway - Moldavia - Georgia - Ireland - Poland -
+        Iceland - France - Austria - Czech Republic - Belgium - United Kingdom - Swizerland - Finland - Luxembourg - Andorra - Romania - </div>
         </>
     )
 }

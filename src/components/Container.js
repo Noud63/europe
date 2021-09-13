@@ -11,7 +11,6 @@ const Container = () => {
 
     const [count, setCount] = React.useState(1)
     const [index, setIndex] = React.useState(0)
-
     const [input, setInput] = React.useState("")
 
     const increment = () => {
@@ -50,7 +49,7 @@ const Container = () => {
         <>
             <div className={styles.container}>
                 <Header />
-                <SearchCountry input={input} setInput={setInput} handleClick={handleClick}/>
+                <SearchCountry input={input} setInput={setInput} handleClick={handleClick} />
                 <CountryNameFlag count={count} index={index} />
                 <CityImage count={count} index={index} increment={increment} decrement={decrement} />
                 <Weather index={index} />
