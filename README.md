@@ -1,4 +1,4 @@
-COUNTRIES OF EUROPE
+<h1>COUNTRIES OF EUROPE</h1>
 
 Europe is the exact same app as 'countries-of-europe', which is written in vanilla js.<br>
 This version is converted to React.js<br><br>
