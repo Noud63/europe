@@ -26,8 +26,8 @@ const Container = () => {
         setIndex(index - 1)
         setCount(count - 1)
         if (index <= 0 && count <= 1) {
-            setIndex(19)
-            setCount(20)
+            setIndex(country.length - 1)
+            setCount(country.length)
         }
     }
 
