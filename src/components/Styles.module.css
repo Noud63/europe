@@ -51,7 +51,7 @@ body {
     height: auto;
     background-color: black;
     border: 1px solid rgb(116, 143, 168);
-    margin: 20px 0 20px 0;
+    margin: 30px 0 30px 0;
     color: white;
     font-size: 3rem;
 } 
@@ -248,6 +248,7 @@ input::placeholder {
 }
 
 .flag {
+    display: block;
      width: 30px;
 }
 
