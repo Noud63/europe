@@ -11,10 +11,13 @@ const SearchCountry = ({ input, setInput, handleClick }) => {
             </div>
 
             <div className={styles.allCountriesBtn}>
-                The Netherlands - Germany - Spain - Italy - Norway - Moldavia - Georgia - Ireland - Poland -
-                Iceland - France - Austria - Czech Republic - Belgium - United Kingdom - Swizerland - Finland -
-                Luxembourg - Andorra - Romania - Slovenia - Portugal - Estonia - Sweden - Ukraine - Hungary - 
-                Belarus - Latvia - Lithuania - Montenegro -</div>
+                The Netherlands - Germany - Spain - Italy - Norway - Moldavia - Georgia -
+                Ireland - Poland - Iceland - France - Austria - Czech Republic - Belgium - United Kingdom - Swizerland -
+                Finland - Luxembourg - Andorra - Romania - Slovenia - Portugal - Estonia - Sweden - Ukraine - Hungary -
+                Belarus - Latvia - Lithuania - Montenegro - Vatican City - North Macedonia - Greece - Slovakia -
+                Liechtenstein - San Marino - Kosovo - Serbia - Croatia Bosnia and Herzegovina - Bulgaria - Denmark -
+                Albania - Malta - Monaco - Russia -
+                </div>
         </>
     )
 }
