@@ -93,7 +93,8 @@ body {
     color:  rgb(116, 143, 168);
     font-size:2.4rem;
     font-weight: bold;
-     background: -webkit-linear-gradient(#eee, rgb(28, 78, 136));
+    background-image: -webkit-linear-gradient(#eee, rgb(28, 78, 136));
+    background-image: linear-gradient(#eee, rgb(28, 78, 136));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
