@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/europe/static/css/main.9c2d5b53.chunk.css",
-    "main.js": "/europe/static/js/main.97aea164.chunk.js",
-    "main.js.map": "/europe/static/js/main.97aea164.chunk.js.map",
+    "main.css": "/europe/static/css/main.cfbed841.chunk.css",
+    "main.js": "/europe/static/js/main.e579c176.chunk.js",
+    "main.js.map": "/europe/static/js/main.e579c176.chunk.js.map",
     "runtime-main.js": "/europe/static/js/runtime-main.dc35e5e0.js",
     "runtime-main.js.map": "/europe/static/js/runtime-main.dc35e5e0.js.map",
     "static/js/2.c0d52c01.chunk.js": "/europe/static/js/2.c0d52c01.chunk.js",
     "static/js/2.c0d52c01.chunk.js.map": "/europe/static/js/2.c0d52c01.chunk.js.map",
     "index.html": "/europe/index.html",
-    "static/css/main.9c2d5b53.chunk.css.map": "/europe/static/css/main.9c2d5b53.chunk.css.map",
+    "static/css/main.cfbed841.chunk.css.map": "/europe/static/css/main.cfbed841.chunk.css.map",
     "static/js/2.c0d52c01.chunk.js.LICENSE.txt": "/europe/static/js/2.c0d52c01.chunk.js.LICENSE.txt",
     "static/media/Styles.module.css": "/europe/static/media/europebg.b906465a.jpg",
     "static/media/spinner.00ea108a.gif": "/europe/static/media/spinner.00ea108a.gif"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.dc35e5e0.js",
     "static/js/2.c0d52c01.chunk.js",
-    "static/css/main.9c2d5b53.chunk.css",
-    "static/js/main.97aea164.chunk.js"
+    "static/css/main.cfbed841.chunk.css",
+    "static/js/main.e579c176.chunk.js"
   ]
 }

@@ -87,18 +87,13 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: var(--width);
+    width: 550px;
     height: 20px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color:  rgb(116, 143, 168);
-    font-size:2.4rem;
+    color: rgb(116, 143, 168);
+    font-size: 42px;
     font-weight: bold;
-    background-image: -webkit-linear-gradient(#eee, rgb(28, 78, 136));
-    background-image: linear-gradient(#eee, rgb(28, 78, 136));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    letter-spacing: 6px;
+    letter-spacing: 4px;
 }
 
 @media only screen and (max-width: 750px){
@@ -106,6 +101,7 @@ body {
         font-size:1.8rem; 
         padding-top: 30px;
         padding-bottom: 30px; 
+        width: 450px;
     }
 }
 
@@ -115,21 +111,23 @@ body {
         padding-top: 30px;
         padding-bottom: 30px; 
         letter-spacing: 2px; 
+        width: 350px;
     }
 }
 
 @media only screen and (max-width: 500px){
     .europe {
-        font-size:1.4rem; 
+        font-size: 22px;
         padding-top: 25px;
         padding-bottom: 25px; 
         letter-spacing: 2px; 
+        width: 290px;
     }
 }
 
 @media only screen and (max-width: 360px){
     .europe {
-        font-size:1.3rem; 
+        font-size: 20px; 
         padding-top: 25px;
         padding-bottom: 25px; 
         letter-spacing: 3px; 
@@ -137,15 +135,16 @@ body {
 }
 
 .search {
+    position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-     width: var(--width);
-     border: 1px solid  rgb(116, 143, 168);
+    justify-content: flex-start;
+    width: var(--width);
+    border: 1px solid  rgb(116, 143, 168);
 }
 
-.search > input {
-    width: 80%;
+.searchField {
+    width: 100%;
     height: 30px;
     border-style: none;
     outline: none;
@@ -159,8 +158,11 @@ input::placeholder {
 }
 
 .searchBtn {
-    width: 17%;
-    height: 33px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    width: 100px;
+    height: 100%;
     border-style: none;
     outline: none;
     background-color: rgb(116, 143, 168);
@@ -171,9 +173,16 @@ input::placeholder {
 @media only screen and (max-width: 600px){
     .searchBtn {
         font-size: .8rem;
+        width: 80px;
     }
 }
 
+@media only screen and (max-width: 500px){
+    .searchBtn {
+        font-size: .8rem;
+        width: 70px;
+    }
+}
 
 .allCountriesBtn {
     margin-left: 3px;
@@ -207,9 +216,12 @@ input::placeholder {
 .allCountriesBtn::-webkit-scrollbar-thumb
 {
   border-radius: 8px;
-  /* -webkit-box-shadow: inset 0 0 6px rgb(0, 11, 34);
-  box-shadow: inset 0 0 6px rgb(0, 11, 34); */
   background-color: rgb(98, 124, 163);
+}
+
+.allCountriesBtn {
+  scrollbar-width: thin;         /* "auto" or "thin" */
+  scrollbar-color: rgb(107, 128, 167) rgb(0, 0, 0);   /* scroll thumb and track */
 }
 
 .countries {
