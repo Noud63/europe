@@ -20,14 +20,15 @@ const Weather = ({ index }) => {
             try {
                 let data = await axios(url)
                 data = data.data
-
+               
                 const { list, city } = data
                 let weather = {
                     temp: list[0].main.temp.toFixed(),
                     city: city.name,
                     des: list[0].weather[0].description,
                     icon: `https://openweathermap.org/img/w/${list[0].weather[0].icon}.png`,
-                    wind: list[0].wind.speed.toFixed()
+                    wind: list[0].wind.speed.toFixed(),
+                    pressure: list[0].main.pressure
                 }
 
                 setWeather(weather)
@@ -46,12 +47,17 @@ const Weather = ({ index }) => {
         <>
             <div className={styles.weatherHeader}>Current weather for: {countries[index].capital}</div>
             <div className={styles.weatherData} style={error ? { display: 'none' } : { display: 'flex' }}>
-                <div>
-                    <div>Temperature: {`${Math.round(weather.temp)} \xB0C`}</div>
-                    <div>{weather.des}</div>
+                <div className={styles.chart}>
+                    <div className={styles.chart1}>Temp</div>
+                    <div className={styles.chart2}>Sky</div>
+                    <div className={styles.chart3}>Wind</div>
+                    <div className={styles.chart4}>Pressure</div>
                 </div>
-                <div>
-                    <img src={`${weather.icon}`} alt="" />
+                <div className={styles.data}>
+                    <div>{`${Math.round(weather.temp)} \xB0C`}</div>
+                    <div> <img src={`${weather.icon}`} alt="" /></div>
+                    <div>{weather.wind} m/s</div>
+                    <div>{weather.pressure} hPa</div>
                 </div>
             </div>
 

@@ -3,8 +3,10 @@ import styles from './Styles.module.css'
 import { images } from './Assets'
 import { countries } from './countries'
 import PrevAndNextBtns from './PrevAndNextBtns';
+import { country } from './Assets'
+import { Link } from "react-router-dom";
 
-const CityImage = ({ index, count, increment, decrement }) => {
+const CityImage = ({ index, setIndex, count, increment, decrement }) => {
 
     const [show, setShow] = React.useState(false)
 
@@ -34,7 +36,10 @@ const CityImage = ({ index, count, increment, decrement }) => {
                         <img src={process.env.PUBLIC_URL + `${countries[index].imagebig}`} alt="" className={styles.popup} />
                     </div>
                 </div>
-            </div>
+               </div>
+            <Link to='/readmore' className={styles.readmoreLink}>
+            <div className={styles.readmore}>read more about {country[index]}</div>
+            </Link>
         </>
     )
 }

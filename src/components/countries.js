@@ -6,6 +6,14 @@ export const countries = [
         currency: "Euro (\u20AC)",
         image: "/images/czechred.png",
         imagebig: "/images/czechredbig.png",
+        title: 'Brief information about the Czech Republic',
+        story: "The Czech Republic, also known as Czechia, is a landlocked country in Central Europe.\n" + 
+               "It borders the countries of Poland, Germany, Austria, and Slovakia.\n" +
+               "Czechia is strategically located astride some of the oldest land routes in Europe.\n" +
+               "The geography of Czechia consists of rolling hills and plains.\n" +
+               "The government system is a parliamentary democracy; the chief of state is the president, and the head of government is the prime minister.\n" +
+               "Czechia has successfully transformed from a centrally planned economy to a market economy in which the prices of goods and services are determined in a free price system.\n" +
+               "Czechia is a member of the European Union(EU).\n"
     },
     {
         capital: "Berlin",
@@ -13,7 +21,14 @@ export const countries = [
         language: "German",
         currency: "Euro (\u20AC)",
         image: "/images/germany.png",
-        imagebig: "/images/germanyredbig.png"
+        imagebig: "/images/germanyredbig.png",
+        title: 'Brief information about Germany',
+        story: "Germany is a country located in the heart of Western Europe.\n" + 
+                "It is bordered by Denmark, Poland, Czechia, Austria, Switzerland, France, Luxembourg, Belgium, Netherlands, the North Sea, and the Baltic Sea.\n" + 
+                "Germany has a strategic location on the North European Plain and along the entrance to the Baltic Sea.\n" + 
+                "The government system is a federal republic; the chief of state is the president, and the head of government is the chancellor.\n" + 
+                "Germany has a mixed economic system which includes a variety of private freedom, combined with centralized economic planning and government regulation.\n" + 
+                "Germany is a member of the European Union (EU)."
     },
     {
         capital: "Amsterdam",
@@ -21,8 +36,8 @@ export const countries = [
         language: "Dutch",
         currency: "Euro (\u20AC)",
         image: "/images/netherlandsred.png",
-        imagebig: "/images/netherlandsredbig.png"
-
+        imagebig: "/images/netherlandsredbig.png",
+        title: 'Brief information about the Netherlands',
     },
     {
         capital: "Rome",
@@ -30,8 +45,8 @@ export const countries = [
         language: "Italian",
         currency: "Euro (\u20AC)",
         image: "/images/italyred.png",
-        imagebig: "/images/italyredbig.png"
-
+        imagebig: "/images/italyredbig.png",
+        title: 'Brief information about Italy',
     },
 
     {
@@ -40,7 +55,15 @@ export const countries = [
         language: "Dutch/French/German",
         currency: "Euro (\u20AC)",
         image: "/images/belgiumred.png",
-        imagebig: "/images/belgiumredbig.png"
+        imagebig: "/images/belgiumredbig.png",
+        title: 'Brief information about Belgium',
+        story: "Belgium is a country in Western Europe that borders the North Sea.\n" +
+               "Neighboring countries include France, Germany, Luxembourg, and the Netherlands.\n" +
+               "Flat coastal plains take up most of the northwest, but rugged mountains of the Ardennes Forest lie in the southeast.\n" +
+               "The government system is a federal parliamentary democracy under a constitutional monarchy.\n" +
+               "The chief of state is the king, and the head of government is the prime minister.\n" +
+               "Belgium has a mixed economic system which includes a private- enterprise system, combined with centralized economic planning, and government regulation.\n" +
+               "Belgium is a member of the European Union(EU)."
     },
 
     {
@@ -49,7 +72,8 @@ export const countries = [
         language: "French",
         currency: "Euro (\u20AC)",
         image: "/images/francered.png",
-        imagebig: "/images/franceredbig.png"
+        imagebig: "/images/franceredbig.png",
+        title: 'Brief information about France',
     },
 
     {
@@ -58,8 +82,8 @@ export const countries = [
         language: "Spanish",
         currency: "Euro (\u20AC)",
         image: "/images/spainred.png",
-        imagebig: "/images/spainredbig.png"
-
+        imagebig: "/images/spainredbig.png",
+        title: 'History of Spain',
     },
 
     {
@@ -68,7 +92,8 @@ export const countries = [
         language: "English",
         currency: "Pound sterling (\u00A3)",
         image: "/images/ukred.png",
-        imagebig: "/images/ukredbig.png"
+        imagebig: "/images/ukredbig.png",
+        title: 'Brief information about Great-Brittain',
     },
 
     {
@@ -77,7 +102,8 @@ export const countries = [
         language: "German/French/Italian",
         currency: "Swiss franc (Fr)",
         image: "/images/swissred.png",
-        imagebig: "/images/swissredbig.png"
+        imagebig: "/images/swissredbig.png",
+        title: 'Brief information about Switzerland',
     },
 
     {
@@ -86,7 +112,8 @@ export const countries = [
         language: "Icelandic",
         currency: "Icelandic króna (Kr)",
         image: "/images/icelandred.png",
-        imagebig: "/images/icelandredbig.png"
+        imagebig: "/images/icelandredbig.png",
+        title: 'Brief information about Iceland',
     },
 
     {
@@ -95,7 +122,8 @@ export const countries = [
         language: "Romanian",
         currency: "Moldovan leu (MDL)",
         image: "/images/moldovared.png",
-        imagebig: "/images/moldovaredbig.png"
+        imagebig: "/images/moldovaredbig.png",
+        title: 'Brief information about Romania',
     },
 
     {
@@ -104,7 +132,8 @@ export const countries = [
         language: "Finnish",
         currency: "Euro (\u20AC)",
         image: "/images/finlandred.png",
-        imagebig: "/images/finlandredbig.png"
+        imagebig: "/images/finlandredbig.png",
+        title: 'Brief information about Finland',
     },
 
     {
@@ -113,7 +142,8 @@ export const countries = [
         language: "Luxembourgish",
         currency: "Euro (\u20AC)",
         image: "/images/luxred.png",
-        imagebig: "/images/luxredbig.png"
+        imagebig: "/images/luxredbig.png",
+        title: 'Brief information about Luxembourg',
     },
 
     {
@@ -122,7 +152,8 @@ export const countries = [
         language: "Irish",
         currency: "Euro (\u20AC)",
         image: "/images/irelandred.png",
-        imagebig: "/images/irelandredbig.png"
+        imagebig: "/images/irelandredbig.png",
+        title: 'History of Ireland',
     },
 
     {
@@ -131,7 +162,8 @@ export const countries = [
         language: "Norwegian",
         currency: "Norwegian Krone (kr)",
         image: "/images/norwayred.png",
-        imagebig: "/images/norwayredbig.png"
+        imagebig: "/images/norwayredbig.png",
+        title: 'Brief information about Norway',
     },
 
     {
@@ -140,7 +172,8 @@ export const countries = [
         language: "Catalan",
         currency: "Euro (\u20AC)",
         image: "/images/andorrared.png",
-        imagebig: "/images/andorraredbig.png"
+        imagebig: "/images/andorraredbig.png",
+        title: 'Brief information about Andorra',
     },
 
     {
@@ -149,7 +182,8 @@ export const countries = [
         language: "Romanian",
         currency: "Romanian leu (Lei)",
         image: "/images/romanred.png",
-        imagebig: "/images/romanredbig.png"
+        imagebig: "/images/romanredbig.png",
+        title: 'History of Romania',
     },
 
     {
@@ -158,7 +192,8 @@ export const countries = [
         language: "Georgian",
         currency: "Georgian Lari (\u20BE)",
         image: "/images/georgiared.png",
-        imagebig: "/images/georgiaredbig.png"
+        imagebig: "/images/georgiaredbig.png",
+        title: 'History of Georgia',
     },
 
     {
@@ -167,7 +202,8 @@ export const countries = [
         language: "Polish",
         currency: "Zloty (zł)",
         image: "/images/polandred.png",
-        imagebig: "/images/polandredbig.png"
+        imagebig: "/images/polandredbig.png",
+        title: 'History of Poland',
     },
 
     {
@@ -176,7 +212,8 @@ export const countries = [
         language: "Austrian german",
         currency: "Euro (\u20AC)",
         image: "/images/austriared.png",
-        imagebig: "/images/austriaredbig.png"
+        imagebig: "/images/austriaredbig.png",
+        title: 'Brief information about Austria',
     },
 
     {
@@ -185,7 +222,8 @@ export const countries = [
         language: "Slovene",
         currency: "Euro (\u20AC)",
         image: "/images/sloveniared.png",
-        imagebig: "/images/sloveniaredbig.png"
+        imagebig: "/images/sloveniaredbig.png",
+        title: 'Brief information about Slovenia',
     },
 
     {
@@ -194,7 +232,8 @@ export const countries = [
         language: "Portugese",
         currency: "Euro (\u20AC)",
         image: "/images/portugalred.png",
-        imagebig: "/images/portugalredbig.png"
+        imagebig: "/images/portugalredbig.png",
+        title: 'Brief information about Portugal',
     },
 
     {
@@ -203,7 +242,8 @@ export const countries = [
         language: "Estonian",
         currency: "Euro (\u20AC)",
         image: "/images/estoniared.png",
-        imagebig: "/images/estoniaredbig.png"
+        imagebig: "/images/estoniaredbig.png",
+        title: 'Brief information about Estonia',
     },
 
     {
@@ -212,7 +252,8 @@ export const countries = [
         language: "Swedish",
         currency: "Swedish Krona (Kr)",
         image: "/images/swedenred.png",
-        imagebig: "/images/swedenredbig.png"
+        imagebig: "/images/swedenredbig.png",
+        title: 'Brief information about Sweden',
     },
 
     {
@@ -221,7 +262,8 @@ export const countries = [
         language: "Ukranian",
         currency: "Grivna (\u20B4)",
         image: "/images/ukrainered.png",
-        imagebig: "/images/ukraineredbig.png"
+        imagebig: "/images/ukraineredbig.png",
+        title: 'Brief information about Ukraine',
     },
 
     {
@@ -230,7 +272,8 @@ export const countries = [
         language: "Hungarian",
         currency: "Forint (Ft)",
         image: "/images/hungaryred.png",
-        imagebig: "/images/hungaryredbig.png"
+        imagebig: "/images/hungaryredbig.png",
+        title: 'Brief information about Hungaria',
     },
 
     {
@@ -239,7 +282,8 @@ export const countries = [
         language: "Belarusian/Russian",
         currency: "Ruble (Br)",
         image: "/images/belarusred.png",
-        imagebig: "/images/belarusredbig.png"
+        imagebig: "/images/belarusredbig.png",
+        title: 'Brief information about Belarus',
     },
 
     {
@@ -248,7 +292,8 @@ export const countries = [
         language: "Latvian",
         currency: "Lats (Lv)",
         image: "/images/latviared.png",
-        imagebig: "/images/latviaredbig.png"
+        imagebig: "/images/latviaredbig.png",
+        title: 'Brief information about Latvia',
     },
 
     {
@@ -257,7 +302,8 @@ export const countries = [
         language: "Lietuviu Kalba",
         currency: "Litas (Lt)",
         image: "/images/lithuaniared.png",
-        imagebig: "/images/lithuaniaredbig.png"
+        imagebig: "/images/lithuaniaredbig.png",
+        title: 'Brief information about Lithuania',
     },
 
     {
@@ -266,7 +312,8 @@ export const countries = [
         language: "Montenegrin",
         currency: "Euro (\u20AC)",
         image: "/images/montenegrored.png",
-        imagebig: "/images/montenegroredbig.png"
+        imagebig: "/images/montenegroredbig.png",
+        title: 'Brief information about Montenegro',
     },
 
     {
@@ -275,7 +322,8 @@ export const countries = [
         language: "Italian",
         currency: "Euro (\u20AC)",
         image: "/images/vaticancityred.png",
-        imagebig: "/images/vaticancityredbig.png"
+        imagebig: "/images/vaticancityredbig.png",
+        title: 'Brief information about Vatican City',
     },
 
     {
@@ -284,7 +332,8 @@ export const countries = [
         language: "Macedonian",
         currency: "Denar (ден)",
         image: "/images/northmacedoniared.png",
-        imagebig: "/images/northmacedoniaredbig.png"
+        imagebig: "/images/northmacedoniaredbig.png",
+        title: 'Brief information about Macedonia',
     },
 
     {
@@ -293,7 +342,8 @@ export const countries = [
         language: "Greek",
         currency: "Euro (\u20AC)",
         image: "/images/greecered.png",
-        imagebig: "/images/greeceredbig.png"
+        imagebig: "/images/greeceredbig.png",
+        title: 'Brief information about Greece',
     },
 
     {
@@ -302,7 +352,8 @@ export const countries = [
         language: "Slovak",
         currency: "Euro (\u20AC)",
         image: "/images/slovakiared.png",
-        imagebig: "/images/slovakiaredbig.png"
+        imagebig: "/images/slovakiaredbig.png",
+        title: 'Brief information about Slovakia',
     },
 
     {
@@ -311,7 +362,8 @@ export const countries = [
         language: "German",
         currency: "Swiss Franc (SFr)",
         image: "/images/liechtensteinred.png",
-        imagebig: "/images/liechtensteinredbig.png"
+        imagebig: "/images/liechtensteinredbig.png",
+        title: 'Brief information about Germany',
     },
 
     {
@@ -320,7 +372,8 @@ export const countries = [
         language: "Italian",
         currency: "Euro (\u20AC)",
         image: "/images/sanmarinored.png",
-        imagebig: "/images/sanmarinoredbig.png"
+        imagebig: "/images/sanmarinoredbig.png",
+        title: 'Brief information about San Marino',
     },
 
     {
@@ -329,7 +382,8 @@ export const countries = [
         language: "Albanian/Serbian",
         currency: "Euro (\u20AC)",
         image: "/images/kosovored.png",
-        imagebig: "/images/kosovoredbig.png"
+        imagebig: "/images/kosovoredbig.png",
+        title: 'Brief information about Kosovo',
     },
 
     {
@@ -338,7 +392,8 @@ export const countries = [
         language: "Serbian",
         currency: "Dinar (дин)",
         image: "/images/serbiared.png",
-        imagebig: "/images/serbiaredbig.png"
+        imagebig: "/images/serbiaredbig.png",
+        title: 'Brief information about Serbia',
     },
 
     {
@@ -347,7 +402,8 @@ export const countries = [
         language: "Croatian",
         currency: "Kuna (HRK)",
         image: "/images/croatiared.png",
-        imagebig: "/images/croatiaredbig.png"
+        imagebig: "/images/croatiaredbig.png",
+        title: 'Brief information about Croatia',
     },
 
     {
@@ -356,7 +412,8 @@ export const countries = [
         language: "Bosnian/Croatian/Serbian",
         currency: "Bosnian Mark (BAM)",
         image: "/images/bosniared.png",
-        imagebig: "/images/bosniaredbig.png"
+        imagebig: "/images/bosniaredbig.png",
+        title: 'Brief information about Bosnia/Herzegovina',
     },
 
     {
@@ -365,7 +422,8 @@ export const countries = [
         language: "Bulgarian",
         currency: "Lev (BGN)",
         image: "/images/bulgariared.png",
-        imagebig: "/images/bulgariaredbig.png"
+        imagebig: "/images/bulgariaredbig.png",
+        title: 'Brief information about Bulgaria',
     },
 
     {
@@ -374,7 +432,8 @@ export const countries = [
         language: "Danish",
         currency: "Krone (Kr)",
         image: "/images/denmarkred.png",
-        imagebig: "/images/denmarkredbig.png"
+        imagebig: "/images/denmarkredbig.png",
+        title: 'Brief information about Denmark',
     },
 
     {
@@ -383,7 +442,8 @@ export const countries = [
         language: "Albanian",
         currency: "Lek (L)",
         image: "/images/albaniared.png",
-        imagebig: "/images/albaniaredbig.png"
+        imagebig: "/images/albaniaredbig.png",
+        title: 'Brief information about Albania',
     },
 
     {
@@ -392,7 +452,8 @@ export const countries = [
         language: "Maltese",
         currency: "Euro (\u20AC)",
         image: "/images/maltared.png",
-        imagebig: "/images/maltaredbig.png"
+        imagebig: "/images/maltaredbig.png",
+        title: 'Brief information about Andorra',
     },
 
     {
@@ -401,7 +462,8 @@ export const countries = [
         language: "French",
         currency: "Euro (\u20AC)",
         image: "/images/monacored.png",
-        imagebig: "/images/monacoredbig.png"
+        imagebig: "/images/monacoredbig.png",
+        title: 'Brief information about Monaco',
     },
 
     {
@@ -410,7 +472,8 @@ export const countries = [
         language: "Russian",
         currency: "Ruble (RUB)",
         image: "/images/russiared.png",
-        imagebig: "/images/russiaredbig.png"
+        imagebig: "/images/russiaredbig.png",
+        title: 'Brief information about Russia',
     },
 
 

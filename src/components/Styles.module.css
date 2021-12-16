@@ -22,23 +22,27 @@
     }
 }
 
-body {
-    margin: 0;
-    background-color: rgb(0, 0, 0);
+* {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
     background-image: url(../bgimg/europebg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
-    background-position: top;
-    min-height: 100%;
-    height: 100vh;
-    position: relative;
 }
 
 .wrapper {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height:100vh;
+    padding: 20px 20px;
 }
 
 .container {
@@ -47,41 +51,69 @@ body {
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
-    width: 700px;
+    width: 800px;
     height: auto;
     background-color: black;
     border: 1px solid rgb(116, 143, 168);
-    margin: 30px 0 30px 0;
-    color: white;
     font-size: 3rem;
 } 
 
+.container2 {
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 800px;
+    height: auto;
+    background-color: black;
+    padding: 20px 30px 30px 30px;
+    border: 1px solid rgb(116, 143, 168);
+    font-size: 1rem;
+    color: rgb(116, 143, 168);
+    line-height: 1.2;
+} 
+
 @media only screen and (max-width: 750px){
-    .container {
+    .container, .container2 {
          width: 550px;
     }
 }
 
 @media only screen and (max-width: 600px){
-    .container {
+    .container, .container2 {
          width: 420px;
     }
 }
 
 @media only screen and (max-width: 500px){
-    .container {
-         width: 350px;
+    .container, .container2 {
+         width: 360px;
     }
 }
 
-@media only screen and (max-width: 360px){
+@media only screen and (max-width: 400px){
+    .container, .container2 {
+         width: 100%;
+    }
+    .wrapper {
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .wrapper {
+        padding: 0px;
+    }
+
     .container {
-         width: 320px;
+        height: 100%;
     }
 }
 
 .europe {
-    padding-top: 40px;
+    padding-top: 50px;
     padding-bottom: 40px;
     display: flex;
     align-items: center;
@@ -125,7 +157,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 360px){
+@media only screen and (max-width: 400px){
     .europe {
         font-size: 20px; 
         padding-top: 25px;
@@ -289,8 +321,8 @@ input::placeholder {
     font-size: 1rem;
     outline: 'none';
     border: 2px solid rgb(116, 143, 168);
-    background-color: black;
-    color: rgb(96, 121, 145);
+    background-color: rgb(0, 0, 0);
+    color: rgb(116, 143, 168);
     cursor: pointer;
 }
 
@@ -337,7 +369,7 @@ input::placeholder {
 }
 
 .infoBox {
-    margin: 30px 20px;
+    margin-top: 25px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -413,16 +445,34 @@ input::placeholder {
          width: 320px;
     }
 }
+
+.readmore {
+     display: flex;
+   align-items: center;
+   justify-content: center;
+    width: var(--width);
+    padding: 5px 0 15px 0;
+    font-size: 1rem;
+    color: rgb(116, 143, 168);
+    border-bottom: 2px solid  rgb(116, 143, 168);
+    margin-bottom: 30px;
+    margin-top: 15px;
+    cursor:pointer;
+}
+
+
+/* WEATHER REPORT */
 .weatherData{
    width: var(--width);
-   height: 100px;
+   height: 90px;
    display: flex;
-   align-items: flex-start;
-   flex-direction: row;
-   justify-content: space-between;
+   align-items: center;
+   flex-direction: column;
+   justify-content: flex-start;
    color: rgb(116, 143, 168);
    font-size: 1rem;
    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   margin-bottom: 30px;
 }
 
 @media only screen and (max-width: 750px){
@@ -437,6 +487,40 @@ input::placeholder {
     }
 }
 
+.chart {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.data {
+    width: 100%;
+    display: flex;
+   align-items: center;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.data > div {
+    width: 25%;
+    height: 60px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.chart > div {
+    width: 25%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    color:rgb(116, 143, 168);
+}
+
 .weatherHeader {
     margin-bottom: 10px;
     padding-bottom: 10px;
@@ -449,7 +533,7 @@ input::placeholder {
     font-size:var(--font-size);
     font-weight: bold;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    border-bottom: 1px solid rgb(116, 143, 168);
+    border-bottom: 2px solid rgb(116, 143, 168);
 }
 
 @media only screen and (max-width: 510px){
@@ -492,3 +576,78 @@ input::placeholder {
          font-size: .8rem;
     }
 }
+
+/* READMORE PAGE */
+
+.wrapper2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+    padding: 20px 20px;
+}
+
+.back {
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+}
+
+.readmoreBack {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color:  rgb(116, 143, 168);
+    padding: 5px;
+}
+
+.readmoreLink {
+    text-decoration: none;
+}
+
+.storyHeader {
+    width: 100%;
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+     border-bottom: 1px solid  rgb(116, 143, 168);
+     margin-bottom: 10px;
+}
+
+.history {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.historytitle {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+     color: rgb(116, 143, 168);
+}
+
+.story {
+    white-space: pre-wrap;
+}
+
+.arms {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.armsPic {
+    width: 80px;
+}
+
