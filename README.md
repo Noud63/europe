@@ -6,8 +6,10 @@ This version is converted to React.js<br><br>
 Brief information about all the countries in Europe.
 Including weather forecast for the capital cities by making use of the https://api.openweathermap.org REST-API.
 
-![europa](https://user-images.githubusercontent.com/38325801/145798463-e008f237-2d2b-4ce5-83fa-bfcb9102ba24.png)<br><br>
-![europa2](https://user-images.githubusercontent.com/38325801/145798468-24e58142-b4aa-48f6-be5f-f41850f101b6.png)<br><br>
-![europa3](https://user-images.githubusercontent.com/38325801/145798473-7e78f7a6-8c56-4f87-81ab-a272d31e946a.png)<br><br>
+![europa](https://user-images.githubusercontent.com/38325801/146385018-b7166638-232e-48f9-9488-e38daa02ed7a.png)<br><br>
+![europa1](https://user-images.githubusercontent.com/38325801/146385035-21fa22c8-6a91-4d85-b3b4-c810580103b5.png)<br><br>
+![europa2](https://user-images.githubusercontent.com/38325801/146385043-53bdb243-0c7e-49d1-8c28-3af28d56c271.png)<br><br>
+![europa3](https://user-images.githubusercontent.com/38325801/146385056-2363127e-5438-4afe-b5c2-a776bc5cccb2.png)<br><br>
+
 
 
