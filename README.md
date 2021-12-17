@@ -13,3 +13,4 @@ Including weather forecast for the capital cities by making use of the https://a
 
 
 
+/* git add . && git commit -am "comment" */
