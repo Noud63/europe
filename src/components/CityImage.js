@@ -34,11 +34,13 @@ const CityImage = ({ index, setIndex, count, increment, decrement }) => {
                 <div className={styles.map} onClick={showMap}><img src={process.env.PUBLIC_URL + `${countries[index].image}`} alt="" />
                     <div className={styles.mapOverlay} style={show ? { display: 'flex' } : { display: 'none' }}>
                         <img src={process.env.PUBLIC_URL + `${countries[index].imagebig}`} alt="" className={styles.popup} />
+                        <div className={styles.overlayTitle}>{country[index].toUpperCase()}</div>
                     </div>
+                    
                 </div>
-               </div>
+            </div>
             <Link to='/readmore' className={styles.readmoreLink}>
-            <div className={styles.readmore}>read more about {country[index]}</div>
+                <div className={styles.readmore}>read more about {country[index]}</div>
             </Link>
         </>
     )
