@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from './Styles.module.css'
 import { Link } from "react-router-dom";
-import { useLocation } from 'react-router-dom'
 import { countries } from './countries'
 import { useGlobalContext } from './Context';
 import { arms } from './Assets'
@@ -20,7 +19,7 @@ const Readmore = () => {
 
                 <div className={styles.story}>{countries[index].story}</div>
 
-                <Link to="/" className={styles.readmoreBack}>
+                <Link to="/europe" className={styles.readmoreBack}>
                     <span className={styles.back}>go back</span>
                 </Link>
 

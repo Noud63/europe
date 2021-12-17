@@ -28,7 +28,7 @@ export const flags = ["czech.png", "germany.png", "netherlands.png", "italy.png"
     "croatia.png", "bosnia.png", "bulgaria.png", "denmark.png", "albania.png", "malta.png", "monaco.png", "russia.png"
 ]
 
-export const arms = ["czech.png", "germany.png", "netherlands.png", "italy.png", "belgium.png",
+export const arms = ["czech.png", "germany.png", "thenetherlands.png", "italy.png", "belgium.png",
     "france.png", "spain.png", "uk.png", "switzerland.png", "iceland.png",
     "moldova.png", "finland.png", "luxembourg.png", "ireland.png", "norway.png",
     "andorra.png", "romania.png", "georgia.png", "poland.png", "austria.png", "slovenia.png", "portugal.png", "estonia.png",

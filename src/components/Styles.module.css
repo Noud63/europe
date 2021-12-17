@@ -32,8 +32,8 @@ body {
     background-color: rgb(0, 0, 0);
     background-image: url(../bgimg/europebg.jpg);
     background-repeat: no-repeat;
+    background-attachment: fixed; 
     background-position: center;
-    background-size: cover;
 }
 
 .wrapper {
@@ -112,6 +112,8 @@ body {
     }
 }
 
+/* ---------------------------------- Header ------------------------------------- */
+
 .europe {
     padding-top: 50px;
     padding-bottom: 40px;
@@ -166,6 +168,7 @@ body {
     }
 }
 
+/* ---------------------------------- Search bar ------------------------------------- */
 .search {
     position: relative;
     display: flex;
@@ -216,6 +219,8 @@ input::placeholder {
     }
 }
 
+/* ---------------------------------- List of all european countries ------------------------------------- */
+
 .allCountriesBtn {
     margin-left: 3px;
     margin-right: 5px;
@@ -255,6 +260,8 @@ input::placeholder {
   scrollbar-width: thin;         /* "auto" or "thin" */
   scrollbar-color: rgb(107, 128, 167) rgb(0, 0, 0);   /* scroll thumb and track */
 }
+
+/* ---------------------------------- Number, name and flag ------------------------------------- */
 
 .countries {
     padding-top: 30px;
@@ -297,6 +304,8 @@ input::placeholder {
      width: 30px;
 }
 
+/* ---------------------------------- Big picture ------------------------------------- */
+
 .imagebox {
     display: flex;
     justify-content: center;
@@ -313,17 +322,6 @@ input::placeholder {
     align-items: center;
     width: 100%;
     height: auto;
-}
-
-.btn {
-    width: 100%;
-    height: 50px;
-    font-size: 1rem;
-    outline: 'none';
-    border: 2px solid rgb(116, 143, 168);
-    background-color: rgb(0, 0, 0);
-    color: rgb(116, 143, 168);
-    cursor: pointer;
 }
 
 .box {
@@ -353,6 +351,15 @@ input::placeholder {
     }
 }
 
+/* ---------------------------------- Prev and Next buttons ------------------------------------- */
+
+.buttonBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: var(--width);
+}
+
 .btns {
     display: flex;
     align-items: center;
@@ -361,12 +368,18 @@ input::placeholder {
     height: 50px;
 }
 
-.buttonBox {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: var(--width);
+.btn {
+    width: 100%;
+    height: 50px;
+    font-size: 1rem;
+    outline: 'none';
+    border: 2px solid rgb(116, 143, 168);
+    background-color: rgb(0, 0, 0);
+    color: rgb(116, 143, 168);
+    cursor: pointer;
 }
+
+/* ---------------------------------- Info, mini map, map overlay pop-up  ------------------------------------- */
 
 .infoBox {
     margin-top: 25px;
@@ -404,11 +417,13 @@ input::placeholder {
 }
 
 .mapOverlay {
-    position: absolute; /* container3 position: relative */
+    position: absolute; /* container2 position: relative */
     display: none;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
-    width:700px; 
+    background-color:rgb(0, 0, 0, .7);
+    padding-left: 10px;
+    width:100%; 
     left:0;
     right:0;
     top: 0;
@@ -446,10 +461,12 @@ input::placeholder {
     }
 }
 
+/* ---------------------------------- Read more link  ------------------------------------- */
+
 .readmore {
-     display: flex;
-   align-items: center;
-   justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: var(--width);
     padding: 5px 0 15px 0;
     font-size: 1rem;
@@ -460,66 +477,14 @@ input::placeholder {
     cursor:pointer;
 }
 
-
-/* WEATHER REPORT */
-.weatherData{
-   width: var(--width);
-   height: 90px;
-   display: flex;
-   align-items: center;
-   flex-direction: column;
-   justify-content: flex-start;
-   color: rgb(116, 143, 168);
-   font-size: 1rem;
-   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   margin-bottom: 30px;
-}
-
-@media only screen and (max-width: 750px){
-   .weatherData {
-       height: 80px;
-    }
-}
-
 @media only screen and (max-width: 510px){
-    .weatherData {
+    .readmore {
          font-size: .9rem;
     }
 }
 
-.chart {
-   width: 100%;
-   display: flex;
-   align-items: center;
-   flex-direction: row;
-   justify-content: space-between;
-}
 
-.data {
-    width: 100%;
-    display: flex;
-   align-items: center;
-   flex-direction: row;
-   justify-content: space-between;
-}
-
-.data > div {
-    width: 25%;
-    height: 60px;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5px;
-}
-
-.chart > div {
-    width: 25%;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5px;
-    color:rgb(116, 143, 168);
-}
+/* ---------------------------------- Weather report  ------------------------------------- */
 
 .weatherHeader {
     margin-bottom: 10px;
@@ -547,6 +512,89 @@ input::placeholder {
     font-size: 1.4rem;
     font-weight: bold;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.weatherData{
+   width: var(--width);
+   height: 90px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: flex-start;
+   color: rgb(116, 143, 168);
+   font-size: 1rem;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 750px){
+   .weatherData {
+       height: 80px;
+    }
+}
+
+@media only screen and (max-width: 510px){
+    .weatherData {
+         font-size: .9rem;
+    }
+}
+
+.data  {
+    width: 100%;
+    display:grid;
+    grid-template-columns: 20% 25% 34% 21%;
+    color:rgb(116, 143, 168);
+}
+
+.data1 {
+    display:flex;
+    align-items: center;
+}
+.data2 {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.data3 {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.data4 {
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.chart  {
+    width: 100%;
+    display:grid;
+    grid-template-columns: 20% 25% 34% 21%;
+    color:rgb(116, 143, 168);
+}
+
+.chart1 {
+    display:flex;
+    align-items: center;
+   
+}
+.chart2 {
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.chart3 {
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.chart4 {
+   
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .icon {
@@ -577,7 +625,8 @@ input::placeholder {
     }
 }
 
-/* READMORE PAGE */
+
+/* ---------------------------------- Read more page  ------------------------------------- */
 
 .wrapper2 {
     width: 100%;

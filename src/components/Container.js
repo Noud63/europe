@@ -5,12 +5,11 @@ import CityImage from './CityImage';
 import Weather from './Weather';
 import CountryNameFlag from './CountryNameFlag'
 import styles from './Styles.module.css'
-import { country } from './Assets'
 import { useGlobalContext } from './Context';
 
 const Container = () => {
     
-    let { count, setCount, index, setIndex, input, setInput, increment, decrement, handleClick } = useGlobalContext();
+    let { count, index, setIndex, input, setInput, increment, decrement, handleClick } = useGlobalContext();
 
     return (
         <>

@@ -54,10 +54,10 @@ const Weather = ({ index }) => {
                     <div className={styles.chart4}>Pressure</div>
                 </div>
                 <div className={styles.data}>
-                    <div>{`${Math.round(weather.temp)} \xB0C`}</div>
-                    <div> <img src={`${weather.icon}`} alt="" /></div>
-                    <div>{weather.wind} m/s</div>
-                    <div>{weather.pressure} hPa</div>
+                    <div className={styles.data1}>{`${Math.round(weather.temp)} \xB0C`}</div>
+                    <div className={styles.data2}> <img src={`${weather.icon}`} alt="" /></div>
+                    <div className={styles.data3}>{weather.wind} m/s</div>
+                    <div className={styles.data4}>{weather.pressure} hPa</div>
                 </div>
             </div>
 
