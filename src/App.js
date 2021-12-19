@@ -9,12 +9,12 @@ import Readmore from './components/Readmore'
 
 function App() {
   return (
-      <Router >
-      <Routes >
-          <Route path='/europe' element={<Wrapper />} />
-          <Route path='/readmore' element={<Readmore />} />
-        </Routes>
-      </Router>
+    <Router >
+      <Routes>
+        <Route path='/' element={<Wrapper />} />
+        <Route path='/readmore' element={<Readmore />} />
+      </Routes>
+    </Router>
   );
 }
 

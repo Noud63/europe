@@ -9,7 +9,7 @@ import { useGlobalContext } from './Context';
 
 const Container = () => {
     
-    let { count, index, setIndex, input, setInput, increment, decrement, handleClick } = useGlobalContext();
+    let { count, index, setIndex, input, setInput, increment, decrement, handleClick} = useGlobalContext();
 
     return (
         <>
@@ -17,7 +17,7 @@ const Container = () => {
                 <Header />
                 <SearchCountry input={input} setInput={setInput} handleClick={handleClick} />
                 <CountryNameFlag count={count} index={index} />
-                <CityImage count={count} index={index} increment={increment} decrement={decrement} setIndex={setIndex}/>
+                <CityImage count={count} index={index} increment={increment} decrement={decrement} setIndex={setIndex} />
                 <Weather index={index} />
             </div>
         </>

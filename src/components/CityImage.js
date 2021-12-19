@@ -6,7 +6,7 @@ import PrevAndNextBtns from './PrevAndNextBtns';
 import { country } from './Assets'
 import { Link } from "react-router-dom";
 
-const CityImage = ({ index, setIndex, count, increment, decrement }) => {
+const CityImage = ({ index, setIndex, count, increment, decrement}) => {
 
     const [show, setShow] = React.useState(false)
 
@@ -36,7 +36,6 @@ const CityImage = ({ index, setIndex, count, increment, decrement }) => {
                         <img src={process.env.PUBLIC_URL + `${countries[index].imagebig}`} alt="" className={styles.popup} />
                         <div className={styles.overlayTitle}>{country[index].toUpperCase()}</div>
                     </div>
-                    
                 </div>
             </div>
             <Link to='/readmore' className={styles.readmoreLink}>

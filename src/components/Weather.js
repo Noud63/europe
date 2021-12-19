@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Styles.module.css'
 import spinner from '../bgimg/spinner.gif'
 import { countries } from './countries'
-import axios from 'axios'
+import axios from 'axios';
 
 const key = process.env.REACT_APP_API_KEY
 

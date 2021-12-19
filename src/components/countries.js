@@ -1,3 +1,5 @@
+//https://globaledge.msu.edu/
+
 export const countries = [
     {
         capital: "Prague",
@@ -38,7 +40,11 @@ export const countries = [
         image: "/images/netherlandsred.png",
         imagebig: "/mapbig/netherlandsredbig.png",
         title: 'Brief information about the Netherlands',
-        story: "Comming soon!"
+        story: "The Netherlands is a constituent country located in Western Europe and with territories in the Caribbean.\n" +
+            "It is bordered by Belgium and Germany. The Netherlands is mostly low-lying, located at the mouths of three major European rivers (Rhine, Meuse, and Schelde).\n" +
+            "The government system is a parliamentary constitutional monarchy; the chief of state is the king, and the head of government is the prime minister.\n" +
+            "The Netherlands has a mixed economic system which includes a variety of private freedom, combined with centralized economic planning and government regulation.\n" +
+            "Netherlands is a member of the European Union (EU)."
     },
     {
         capital: "Rome",
@@ -48,7 +54,12 @@ export const countries = [
         image: "/images/italyred.png",
         imagebig: "/mapbig/italyredbig.png",
         title: 'Brief information about Italy',
-        story: "Comming soon!"
+        story: "Italy is a country located in Southern Europe comprising the boot-shaped Italian peninsula and a number of islands including Sicily and Sardinia.\n" +
+            "Neighboring countries include Austria, France, Holy See, San Marino, Slovenia, and Switzerland.\n" +
+            "Italy has a strategic location dominating central Mediterranean as well as proximity to Western Europe across the Adriatic Sea.\n" +
+            "The government system is a republic; the chief of state is the president, and the head of government is the prime minister.\n" +
+            "Italy has a diversified industrial economy, which is divided into a developed industrial north, dominated by private companies, and a less developed, welfare-dependent, agricultural south.\n" +
+            "Italy is a member of the European Union (EU)."
     },
 
     {

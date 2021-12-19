@@ -40,6 +40,7 @@ const Context = ({ children }) => {
             }
         }
     }
+
     return (
         <allData.Provider value={{ count, setCount, index, setIndex, input, setInput, increment, decrement, handleClick }}>{children}</allData.Provider>
     )
@@ -48,4 +49,4 @@ const Context = ({ children }) => {
 export const useGlobalContext = () => {
     return React.useContext(allData)
 }
-export { allData, Context}
+export { allData, Context }
