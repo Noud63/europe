@@ -550,7 +550,10 @@ input::placeholder {
 @media only screen and (max-width: 510px){
     .weatherData {
          font-size: .9rem;
+         margin-bottom: 10px;
     }
+
+    
 }
 
 .data  {

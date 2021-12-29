@@ -11,7 +11,7 @@ function App() {
   return (
     <Router >
       <Routes>
-        <Route path='/' element={<Wrapper />} />
+        <Route path='/europe' element={<Wrapper />} />
         <Route path='/readmore' element={<Readmore />} />
       </Routes>
     </Router>
