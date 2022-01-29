@@ -465,13 +465,13 @@ input::placeholder {
 
 @media only screen and (max-width: 500px){
     .popup, .mapOverlay {
-        width: 340px;
+        width: 100%;
     }
 }
 
 @media only screen and (max-width: 360px){
-     .popup, .mapOverlay {
-         width: 320px;
+     .popup, .mapOverlay, .container {
+         width: 100%;
     }
 }
 

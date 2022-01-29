@@ -8,8 +8,8 @@ import styles from './Styles.module.css'
 import { useGlobalContext } from './Context';
 
 const Container = () => {
-    
-    let { count, index, setIndex, input, setInput, increment, decrement, handleClick} = useGlobalContext();
+
+    let { count, index, setIndex, input, setInput, increment, decrement, handleClick } = useGlobalContext();
 
     return (
         <>
@@ -23,7 +23,6 @@ const Container = () => {
         </>
     )
 }
-
 
 export default Container
 
