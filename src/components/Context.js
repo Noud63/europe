@@ -49,4 +49,5 @@ const Context = ({ children }) => {
 export const useGlobalContext = () => {
     return React.useContext(allData)
 }
+
 export { allData, Context }
