@@ -87,7 +87,14 @@ export const countries = [
         image: "/images/francered.png",
         imagebig: "/mapbig/franceredbig.png",
         title: 'Brief information about France',
-        story: "Comming soon!",
+        story: "France is an independent nation in Western Europe and the center of a large overseas administration. It is the third-largest European nation (after Russia and Ukraine).\n" +
+               "In ancient times France was part of the Celtic territory known as Gaul or Gallia.Its present name is derived from the Latin Francia, meaning country of the Franks,\n" + 
+               "a Germanic people who conquered the area during the 5th century, at the time of the fall of the Western Roman Empire.It became a separate country in the 9th century.\n" +
+               "Since the 17th century, France has played a major role in European and world events.In the 20th century, it has experienced numerous crises, including the devastation of two world wars, political and social upheavals, and the loss of a large empire in Indochina, Algeria, and West and Equatorial Africa.It has, however survived and emerged from the ruins of World War II to become an important world supplier of agricultural and industrial products and a major partner in the European Community(EC, or Common Market).\n" +
+               "Today, the term metropolitan France refers to the mainland departments and Corsica, a large island located in the Mediterranean Sea off the coast of Italy that has been a part of France since 1768. \n" + 
+               "France has six overseas departments: Fench Guiana in South America; Guadeloupe and Martinique in the West Indies; Mayotte, an island formerly part of the Comoros, located in the Indian Ocean; Reunion, an island in the Indian Ocean; and Saint Pierre and Miquelon, islands off the east coast of Canada.\n" + 
+               "In addition, France has numerous small possessions called overseas territories.These include a group of widely scattered islands in the South Pacific, which are administered from Tahiti and are known collectively as Fench Polynesia; Fench Southern and Antartic Terrotories; New Caledonia and Wallis and Futuna Islands; and many small islands in the southern oceans, including the Kerguelen and Crozet archipelagos and the islands of St.Paul and Amsterdam(Indian Ocean).\n" + 
+               "The overseas departments and territories are represented in the French National Assembly."
     },
 
     {
